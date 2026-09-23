@@ -10,7 +10,7 @@ D = 0.01 #diffusion coeff.
 
 #2D stability condition: dt < dx^2/(4D)
 dt = 0.2*(dx**2) / (4*D)
-t_final = 0.
+t_final = 0.5
 n = int( t_final /dt)
 
 #Grid
